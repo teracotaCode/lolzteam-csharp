@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12.0</LangVersion>
+    <RootNamespace>Lolzteam</RootNamespace>
+    <AssemblyName>Lolzteam</AssemblyName>
+    <Version>1.0.0</Version>
+    <Authors>teracota</Authors>
+    <Description>Complete C# API wrapper for Lolzteam Forum and Market API</Description>
+    <PackageId>Lolzteam</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/teracotaCode/lolzteam-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/teracotaCode/lolzteam-csharp</RepositoryUrl>
+    <PackageTags>lolzteam;api;forum;market</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Lolzteam.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+</Project>
